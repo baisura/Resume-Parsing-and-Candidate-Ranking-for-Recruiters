@@ -1,5 +1,8 @@
 **Resume Parsing and Candidate Ranking for Recruiters**
+
+
 **Project Overview**
+
 This project automates the extraction of key information from unstructured resumes and ranks candidates based on specified job criteria using AI-powered Natural Language Processing (NLP). Leveraging large language models such as Mistral or llama2 via Ollama, resumes and job descriptions are parsed into structured data. Candidates are then scored and ranked to assist recruiters in making fast, accurate, and unbiased hiring decisions.
 
 **Features**
@@ -16,6 +19,7 @@ Local LLM inference for data privacy and cost efficiency
 API integration for scalable deployment
 
 **Installation**
+
 Clone the repo
 
 **Install dependencies:**
@@ -32,6 +36,8 @@ Launch the Streamlit frontend:
 
 bash
 streamlit run app.py
+
+
 **Usage**
 Input your resume and job description texts in the frontend.
 
